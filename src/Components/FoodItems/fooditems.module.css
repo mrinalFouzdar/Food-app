@@ -1,0 +1,16 @@
+.main_container{
+    /* marginTop:"10vh",
+     overflowY:"scroll",
+      height:"100vh" */
+      margin-top: 10vh;
+      overflow-y: scroll;
+      height: 100vh;
+} 
+
+::-webkit-scrollbar {
+    display:none;
+}
+.link_text{
+    text-decoration: none;
+    color: white;
+}

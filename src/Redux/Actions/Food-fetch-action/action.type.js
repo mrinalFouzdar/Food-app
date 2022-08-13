@@ -1,0 +1,1 @@
+export const GET_FOODS_DETAILS = "GET_FOODS_DETAILS"
