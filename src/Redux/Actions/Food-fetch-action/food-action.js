@@ -10,7 +10,7 @@ const getFoodsData=(data)=>({
 export const fetchFoodsApi=()=>async(dispatch)=>{
     try {
         
-       let data=await axios.get(`${process.env.REACT_APP_API}`)
+       let data=await axios.get("./OFF_subset17.json")
        console.log(data);
        dispatch(getFoodsData(data.data))
     } catch (error) {
