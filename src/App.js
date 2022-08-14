@@ -11,7 +11,7 @@ import FoodDetails from './Components/FoodDetails/FoodDetails';
 function App() {
   const dispatch = useDispatch()
   const {loading}= useSelector(state=>state.food)
-  console.log(loading);
+  // console.log(loading);
   useEffect(()=>{
     dispatch(fetchFoodsApi())
   },[])
@@ -28,7 +28,6 @@ function App() {
   }
   return (
     <div className="App">
-      {/* Joy Maa tara */}
       <NavbarComponent/>
       <Routes>
         <Route path="/" element={<FoodItems/>}/>
