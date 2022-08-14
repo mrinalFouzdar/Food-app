@@ -1,0 +1,9 @@
+.foodContainer{
+    margin: 10vh;
+}
+.btn{
+    position: fixed;
+    right: 2vw;
+    border: none;
+    padding: 4px;
+}

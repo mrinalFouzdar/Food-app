@@ -1,4 +1,5 @@
 import React from "react";
+import Styled from "./foodDetails.module.css"
 import {  Container, Table } from "react-bootstrap";
 import { useSelector } from "react-redux";
 import { useNavigate, useParams } from "react-router-dom";
@@ -18,9 +19,9 @@ const FoodDetails = () => {
 
   // console.log(foodId);
   return (
-    <Container style={{ margin: "10vh" }} >
+    <Container  className={Styled.foodContainer}>
       <div>
-      <button style={{position:"fixed", right:"2vw" ,border:"none", padding:"4px"}} onClick={handleNavigate}>❌</button>
+      <button className={Styled.btn} onClick={handleNavigate}>❌</button>
       </div>
       <Table striped bordered hover variant="dark">
         <thead>
