@@ -27,7 +27,7 @@ const NavbarComponent = () => {
 
               <Nav className="justify-content-end flex-grow-1 pe-3">
                 <Nav.Link as={Link} to="/" eventKey={Math.random()+Date.now()}>Home</Nav.Link>
-                <Nav.Link as={Link} to="/favourite" eventKey={Math.random()+Date.now()}>Favourite List</Nav.Link>
+                <Nav.Link href='#' eventKey={Math.random()+Date.now()}>Favourite List</Nav.Link>
               </Nav>
               <Form className="d-flex">
                 <Form.Control

@@ -24,8 +24,8 @@ const FoodDetails = () => {
       <button className={Styled.btn} onClick={handleNavigate}>❌</button>
       </div>
       <Table striped bordered hover variant="dark">
-        <thead>
-          <tr>
+        <thead className="p-4">
+          <tr className="fs-1 fw-bold">
             <th colSpan={3}>Food Details</th>
           </tr>
         </thead>

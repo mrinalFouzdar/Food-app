@@ -1,7 +1,7 @@
 import React from "react";
 import Styled from "./fooditems.module.css";
 import img from "../../Image/icon.png";
-import { Table, Container, Dropdown, Button } from "react-bootstrap";
+import { Table, Container, Dropdown } from "react-bootstrap";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { useState } from "react";
@@ -67,9 +67,6 @@ const FoodItems = () => {
                   >
                     {`${item.product_name} (${item.generic_name})`}
                   </Link>
-                </td>
-                <td>
-                  <Button>ADD FAV List</Button>
                 </td>
               </tr>
             ))}
